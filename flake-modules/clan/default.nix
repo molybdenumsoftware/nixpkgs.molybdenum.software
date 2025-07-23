@@ -2,7 +2,7 @@
 {
   imports = [ inputs.clan-core.flakeModules.default ];
 
-  clan.meta.name = "nixpkgs.molybdenum.software";
+  clan.meta.name = "nixpkgs_molybdenum_software";
 
   perSystem =
     { inputs', ... }:
