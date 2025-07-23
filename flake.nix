@@ -13,10 +13,16 @@
 
     import-tree.url = "github:vic/import-tree";
 
+    make-shell = {
+      url = "github:nicknovitski/make-shell";
+      inputs.flake-compat.url = "";
+    };
+
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     git-hooks = {
       url = "github:cachix/git-hooks.nix";
+      inputs.flake-compat.url = "";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 

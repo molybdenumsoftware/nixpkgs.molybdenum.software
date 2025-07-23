@@ -82,18 +82,26 @@
     "flake-compat": {
       "flake": false,
       "locked": {
-        "lastModified": 1696426674,
-        "narHash": "sha256-kvjfFW7WAETZlt09AgDn1MrtKzP7t90Vf7vypd3OL1U=",
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "rev": "0f9255e01c2351cc7d116c072cb317785dd33b33",
-        "type": "github"
+        "path": "",
+        "type": "path"
       },
       "original": {
-        "owner": "edolstra",
-        "repo": "flake-compat",
-        "type": "github"
-      }
+        "path": "",
+        "type": "path"
+      },
+      "parent": []
+    },
+    "flake-compat_2": {
+      "flake": false,
+      "locked": {
+        "path": "",
+        "type": "path"
+      },
+      "original": {
+        "path": "",
+        "type": "path"
+      },
+      "parent": []
     },
     "flake-parts": {
       "inputs": {
@@ -173,6 +181,24 @@
         "type": "github"
       }
     },
+    "make-shell": {
+      "inputs": {
+        "flake-compat": "flake-compat_2"
+      },
+      "locked": {
+        "lastModified": 1733933815,
+        "narHash": "sha256-9JjM7eT66W4NJAXpGUsdyAFXhBxFWR2Z9LZwUa7Hli0=",
+        "owner": "nicknovitski",
+        "repo": "make-shell",
+        "rev": "ffeceae9956df03571ea8e96ef77c2924f13a63c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nicknovitski",
+        "repo": "make-shell",
+        "type": "github"
+      }
+    },
     "nix-darwin": {
       "inputs": {
         "nixpkgs": [
@@ -244,6 +270,7 @@
         "flake-parts": "flake-parts",
         "git-hooks": "git-hooks",
         "import-tree": "import-tree",
+        "make-shell": "make-shell",
         "nixpkgs": "nixpkgs",
         "treefmt-nix": "treefmt-nix_2"
       }
