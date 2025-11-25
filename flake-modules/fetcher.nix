@@ -11,6 +11,7 @@
       "staging"
       "staging-*"
       "nixos-*"
+      "nixpkgs-unstable"
       "release-*"
     ];
 
